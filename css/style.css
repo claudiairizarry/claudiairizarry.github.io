@@ -1,0 +1,169 @@
+
+/******************************************************
+*******************************************************
+1. Global styles
+(things that apply to all elements of site)
+*******************************************************
+******************************************************/
+
+/*Make everything inside the <html> act as a block.
+box-sizing: used to tell the browser what the sizing properties (width and height) should include.
+border-box: The width and height properties (and min/max properties) includes content, padding and border, but not the margin */
+
+html {
+  box-sizing: border-box;
+}
+
+/* The asterisk * used below means wildcard or affect everything.
+box-sizing: inherit, means inherit the property border-box from its parent element html.
+Check what the pseudo elements :before and :after are for https://www.w3schools.com/CSS/css_pseudo_elements.asp */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ /* header */
+header {
+  background-color: #D22630;
+  background-size: cover;
+  color: #ffffff;
+  font-family: Garamond, serif;/*use Roboto for everything inside header*/
+  text-align: center;/* align all text inside header to the center*/
+}
+
+/*rules for all the body text
+you can give specific text elements their own rules by adding a selector { property: value;} When you do, you override this global rule*/
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif; /* font */
+  font-size: 16px; /* 16px is the standard font size */
+  line-height: 1.5; /* 1.5 times the size of the font */
+  background-color: white;
+  color: black;
+}
+
+/* background color */
+
+background {
+  background-color: #C5C5C5;
+}
+
+/******************************************************
+*******************************************************
+3. Main body content
+*******************************************************
+******************************************************/
+
+article {
+  max-width: 800px;/*set the width of the text and other elements inside the article tag*/
+  padding: 20px;/*give it padding all around*/
+  margin: auto;
+  /* set the margin property to auto to horizontally center the element
+  within its container. If you do margin: 0 auto that means:
+  top and bottom give it a margin 0, and the left and right margin auto.
+  More: https://css-tricks.com/forums/topic/why-or-how-does-margin0-auto-work/ */
+}
+
+
+/*global settings for h1 and p */
+h1, h2, h3 {font-family: Garamond, Georgia, serif;}
+
+h1 {
+  color: #72242B;
+  font-size: 36px;
+  }
+h2, h3 {
+    font-weight: 400;
+    color: #C5C5C5;
+  }
+h2 {font-size: 18px;}
+
+h3 {font-size: 16px;}
+
+    /*header h3 byline*/
+  .author {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    /* added space in the bottom with padding */
+  }
+
+  /*header h3 a byline link*/
+  .author a {
+    color: #C5C5C5;
+    text-decoration: color;
+  }
+
+  /*header h3 a:hover byline link on hover*/
+  .author
+
+  a:hover {
+    background-color: black;
+}
+p {
+      font-family: 'Helvetica',sans-serif;
+      color: black
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  .pquote {
+      float: top;
+      width: 200px;
+      background: url(images/openquote.gif) no-repeat;
+      color: black;
+      font-size: 26px;
+      line-height: 2;
+      font-style: italic;
+      padding: 10px;
+  }
+blockquote {
+      margin: 0;
+      background-color: lightgray;
+      opacity: 50;
+  }
+
+  .pquote p:first-letter {
+      font-size: 39px;
+      font-weight: bold;
+  }
+figure {
+     font-family: 'Helvetica', sans-serif;
+     color: black;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 1.25;
+}
+
+figcaption {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  padding: 2px 2px;
+}
+
+/*div container for the 3 images and captions, using the class .img-wrapper*/
+.img-wrapper {
+  display: flex;
+  flex-direction: row; /*align in the same row*/
+  justify-content: space-between;
+}
+
+.img-wrapper figure {width: 150px;}
+
+/*footer*/
+
+footer {
+  background-color: #D22630;
+  background-size: cover;
+  color: #ffffff;
+  font-family: Garamond, serif;/*use Roboto for everything inside header*/
+  text-align: center;/* align all text inside header to the center*/
+}
+
+/* These are all the same colour - this is also a CSS comment by the way!
+p {
+}
+
+ */
