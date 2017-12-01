@@ -91,7 +91,7 @@ h2 /*subtitles*/ {
 }
 
 a /*links*/ {
-  color: #000000;
+  color: white;
   text-decoration: underline;
 }
 
@@ -114,6 +114,10 @@ figure {  /*treat figure and what is inside it as a block*/
 figcaption {
   font-size: 14px;
   text-align: center;
+}
+
+p {
+    margin: 2cm 4cm 3cm 4cm;
 }
 
 /*div container for the 3 images and captions using the flex model, check it out after*/
