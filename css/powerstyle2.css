@@ -92,7 +92,7 @@ h2 /*subtitles*/ {
 }
 
 a /*links*/ {
-  color: white;
+  color: #FFFFFF;
   text-decoration: underline;
 }
 
@@ -155,7 +155,7 @@ And the rules are basically a repetition of what you have above but with other s
 
 @media (max-width: 800px) {
     body {
-        width: 80%;
+        width: 100%;
     }
 
     .title {
