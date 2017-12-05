@@ -129,6 +129,16 @@ figcaption {
 .img-wrapper figure {width: 200px;} /*give the figure inside the div container a width of 200px*/
 /*end div container for the 3 images and captions*/
 
+blockquote {
+  border-top: 7px solid #000000; /* give the border top a solid line of 6px in color red wine*/
+  border-bottom: 4px solid #000000; /* give the border bottom a solid line of 3px in color red wine*/
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  padding: 5px 1px;
+  text-align: center;
+}
+
 /****************************************************
 *****************************************************
 4. Footer Content
