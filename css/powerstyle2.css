@@ -141,19 +141,8 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 20px;
   font-family: 'Montserrat', sans-serif;
 }
-
-/****************************************************
-*****************************************************
-5. Mediaqueries
-*****************************************************
-*****************************************************/
-
-/* A REMINDER
-You say for any @media that has less than XXXXX px then apply this rules...
-And the rules are basically a repetition of what you have above but with other sizes and styles.*/
 
 
 @media (max-width: 800px) {
