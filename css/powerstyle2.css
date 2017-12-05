@@ -100,7 +100,6 @@ a /*links*/ {
 }
 
 a:hover /*links on hover*/ {
-  text-decoration: underline;
   text-decoration-color: #80176f;
   color: #80176f;
 }
